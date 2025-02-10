@@ -47,7 +47,7 @@ return {
         -- navigate buffer tabs
         ["]b"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
         ["[b"] = { function() require("astrocore.buffer").nav(-vim.v.count1) end, desc = "Previous buffer" },
-
+        [":"] = {"<Plug>(cmdpalette)", desc = "cmdpallete"},
         -- mappings seen under group name "Buffer"
         ["<Leader>bd"] = {
           function()
@@ -56,7 +56,13 @@ return {
             )
           end,
           desc = "Close buffer from tabline",
-        },
+        },  
+	["<Leader>nf"] = {
+	  function()
+   		require('neogen').generate()
+	  end,
+	  desc = "Doc generate",
+	},
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus

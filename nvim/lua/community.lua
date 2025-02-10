@@ -14,5 +14,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.copilot-cmp" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.editing-support.copilotchat-nvim" },
+  { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
+  { import = "astrocommunity.editing-support.neogen" },
 }
