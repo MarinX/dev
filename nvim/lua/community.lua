@@ -14,7 +14,8 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.completion.copilot-cmp" },
-  { import = "astrocommunity.editing-support.copilotchat-nvim" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.editing-support.neogen" },
+  { import = "astrocommunity.media.codesnap-nvim" },
+  { import = "astrocommunity.media.vim-wakatime" },
 }
