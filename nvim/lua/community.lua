@@ -18,4 +18,5 @@ return {
   { import = "astrocommunity.editing-support.neogen" },
   { import = "astrocommunity.media.codesnap-nvim" },
   { import = "astrocommunity.media.vim-wakatime" },
+  { import = "astrocommunity.file-explorer.telescope-file-browser-nvim" },
 }
